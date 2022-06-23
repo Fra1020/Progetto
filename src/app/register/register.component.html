@@ -1,0 +1,33 @@
+<div class="bg-img">
+  <div class="content">
+      <header>Register</header>
+      <form action="#">
+          <div class="field">
+              <span class="fa fa-user"></span>
+              <input type="text" [(ngModel)]="authData.nome" name="nome" required placeholder="nome">
+          </div>
+          <div class="field">
+              <span class="fa fa-user"></span>
+              <input type="text" [(ngModel)]="authData.cognome" name="cognome" required placeholder="cognome">
+          </div>
+          <div class="field">
+              <span class="fa fa-user"></span>
+              <input type="email" [(ngModel)]="authData.email" name="email" required placeholder="email">
+          </div>
+          <div class="field space">
+              <span class="fa fa-user"></span>
+              <input type="password" required class="pass-key" [(ngModel)]="authData.password" name="password" placeholder="password">
+          </div>
+
+
+              <button id=login class="btn btn-danger" (click)="register()">Register</button>
+
+              <h3>Sei già registrato su Stamm Street? <a [routerLink]="['/login']">Accedi</a></h3>
+
+
+
+      </form>
+
+  </div>
+
+</div>

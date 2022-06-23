@@ -1,0 +1,25 @@
+<div class="bg-img">
+  <div class="content">
+      <header>Accedi</header>
+      <form action="#">
+          <div class="field">
+              <span class="fa fa-user"></span>
+              <input type="email" [(ngModel)]="authData.email" name="email" required placeholder="email">
+          </div>
+          <div class="field space">
+              <span class="fa fa-user"></span>
+              <input type="password" required class="pass-key" [(ngModel)]="authData.password" name="password" placeholder="password">
+          </div>
+
+
+              <button id=login class="btn btn-danger" (click)="login()">Accedi</button>
+
+              <h3>Prima volta su Stamm Street? <a [routerLink]="['/register']">Crea un account</a></h3>
+
+
+
+      </form>
+
+  </div>
+
+</div>

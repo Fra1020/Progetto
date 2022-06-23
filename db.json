@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "email": "fra@gmail.com",
+      "password": "$2a$10$91jCyE/K.y2eeyjDamJTvO3QVf4tZQto39TARzlkwOkSwqlsWShXS",
+      "nome": "francesco",
+      "cognome": "coppola",
+      "id": 1
+    }
+  ]
+}
