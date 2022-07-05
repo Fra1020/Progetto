@@ -20,18 +20,22 @@ export class LoginComponent implements OnInit {
     password : ''
   }
 
+
+
   login(){
     this.auth.login(this.authData).subscribe((res:any) => {
       console.log(res);
       this.auth.logUser(res.accessToken)
       this.router.navigate(['/login'])
 
+
+
       Swal.fire({
         position: 'top-end',
         icon: 'success',
         title: 'Ora potrai ordinare il tuo panino',
         showConfirmButton: false,
-        timer: 1000
+        timer: 2000
       })
 
     })

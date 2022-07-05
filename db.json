@@ -1,11 +1,135 @@
 {
   "users": [
     {
-      "email": "fra@gmail.com",
-      "password": "$2a$10$91jCyE/K.y2eeyjDamJTvO3QVf4tZQto39TARzlkwOkSwqlsWShXS",
-      "nome": "francesco",
-      "cognome": "coppola",
+      "email": "d@d.iy",
+      "password": "$2a$10$6gjft.Td/t4LW7kpdRRokuKgX.1asHn.3rCqO5adl5q166VBcEVPe",
+      "nome": "dsf",
+      "cognome": "dfsdf",
       "id": 1
+    },
+    {
+      "email": "dfdf@gmail.com",
+      "password": "$2a$10$Q7PZHoyOeBQUyIHqs6vjmurHh/bg/U08KjsZmpbstMYguX0iVKd1q",
+      "nome": "dfd",
+      "cognome": "dssdf",
+      "id": 2
     }
-  ]
+  ],
+
+  "menu":[
+        {
+          "id":1,
+          "title": "panino",
+          "nome":"Bacon Burger",
+          "prezzo": 12,
+          "ingredienti": "Bun artigianale, hamburger di scottona 200g, fior di cacio affumicato, bacon croccante, cipolla rossa caramellata, pomodoro, insalata iceberg, salsa bbq, maionese",
+          "img": "assets/img/p1.jpg"
+        },
+        {
+          "id":2,
+          "title": "panino",
+          "nome": "Cheese Burger",
+          "prezzo": 11,
+          "ingredienti": "hamburger di scottona 200g, caciocavallo presidio Slow Food, bacon croccante, cipolla pastellata, insalata iceberg, ketchup al pomodorino giallo, pomodorino giallo Dry Caramel.",
+          "img":"assets/img/p2.jpg"
+        },
+        {
+          "id":3,
+          "title": "panino",
+          "nome":"EggSpicy",
+          "prezzo": 14,
+          "ingredienti": "Hamburger di scottona 200g, fior di cacio affumicato, bacon croccante, cipolla rossa caramellata, uovo fritto, pomodori secchi, rucola, nduja di Spilinga",
+          "img":"assets/img/p3.jpg"
+        },
+        {
+          "id":4,
+          "title": "panino",
+          "nome":"Chicken Burger",
+          "prezzo": 9,
+          "ingredienti":"Hamburger di pollo 200g con croccante panatura di cornflakes*, doppio fior di cacio affumicato, doppio bacon croccante, pomodoro, insalata iceberg, maionese",
+          "img":"assets/img/p4.jpg"
+        },
+        {
+          "id":5,
+          "title": "panino",
+          "nome":"Pork Burger",
+          "prezzo": 17,
+          "ingredienti":" Bun artigianale, hamburger di maialino nero del Sannio 150g, fi or di cacio affumicato, bacon croccante, scaglie di parmigiano reggiano 24 mesi, melanzane a funghetto, rucola, maionese con nduja",
+          "img": "assets/img/p5.jpg"
+        },
+        {
+          "id":6,
+          "title": "panino",
+          "nome":"Mortadelloso",
+          "prezzo": 14,
+          "ingredienti":"Hamburger di Scottona 200g, burrata, mortadella al pistacchio, rucola, pesto di pistacchio, pomodorino giallo Dry Caramel",
+          "img":"assets/img/p6.jpg"
+        },
+        {
+          "id":7,
+          "title": "panino",
+          "nome":"Fuori di zucca",
+          "prezzo":16,
+          "ingredienti": "Bun artigianale, doppio hamburger di maialino nero del Sannio 150g, caciocavallo ai peperoni cruschi, zucca saltata, bacon croccante, scaglie di parmigiano reggiano 24 mesi, rucola, pomodorino dry caramel rosso e giallo, maionese con nduja.",
+          "img": "assets/img/p7.jpg"
+        },
+        {
+          "id":8,
+          "title": "birra",
+          "nome":"Duchessa 33cl",
+          "prezzo":5,
+          "gradazione":5.8,
+          "img":"assets/img/b8.jpg"
+        },
+        {
+          "id":9,
+          "title": "birra",
+          "nome":"Franziskaner 50cl",
+          "prezzo":5,
+          "gradazione":5,
+          "img":"assets/img/p9.jpg"
+        },
+        {
+          "id":10,
+          "title": "birra",
+          "nome":"Goose Ipa 35cl",
+          "prezzo":5,
+          "gradazione":5.9,
+          "img":"assets/img/p10.jpg"
+        },
+        {
+          "id":11,
+          "title": "birra",
+          "nome":"Leffe Blonde 33cl",
+          "prezzo":5,
+          "gradazione":6.6,
+          "img":"assets/img/p11.jpg"
+        },
+        {
+          "id":12,
+          "title": "birra",
+          "nome":"Maledetta 33cl",
+          "prezzo":5,
+          "gradazione":6.2,
+          "img":"assets/img/p12.jpg"
+        },
+        {
+          "id":13,
+          "title": "birra",
+          "nome":"My Antonia 33cl",
+          "prezzo":5,
+          "gradazione":7.5,
+          "img":"assets/img/p13.jpg"
+        },
+        {
+          "id":14,
+          "title": "birra",
+          "nome":"Reale Extra 33cl",
+          "prezzo":5,
+          "gradazione":6.4,
+          "img":"assets/img/p14.jpg"
+        }
+      ]
 }
+
+

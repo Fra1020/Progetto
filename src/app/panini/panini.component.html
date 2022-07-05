@@ -1,0 +1,25 @@
+<ul>
+  <li *ngFor="let panino of panini">
+    <a>
+      <img src="{{panino.img}}">
+      <div class="content">
+        <div class="name">
+          {{panino.nome}}
+        </div>
+        <div class="price">
+          <span>Prezzo: {{panino.prezzo}}</span>
+        </div>
+        <div class="ingredients">
+          <span>{{panino.ingredienti}}</span>
+        </div>
+      </div>
+    </a>
+  </li>
+</ul>
+
+
+
+
+
+
+

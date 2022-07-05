@@ -10,6 +10,7 @@ export class UserService {
 
   apiUrlRegister:string = 'http://localhost:4201/register';
   apiUrl:string = 'http://localhost:4201/users';
+  apiMenu:string = 'http://localhost:4201/menu'
 
 
   registerUser(user:any) {
@@ -22,5 +23,9 @@ export class UserService {
 
   datiUtente(datiutente:any){
     return this.http.get(this.apiUrl, datiutente)
+  }
+
+  getpanini(title:string){
+    return this.http.get(this.apiMenu + '?title=' + title)
   }
 }

@@ -1,20 +1,37 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-danger">
-  <div class="container-fluid">
-      <a href="#" class="navbar-brand">Stamm Street</a>
-      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav">
-            <button type="button" class="btn btn-dark me-2"><a [routerLink]="['/home']">Home</a></button>
-          </div>
-          <div class="navbar-nav ms-auto">
-            <button type="button" class="btn btn-dark me-2"><a [routerLink]="['/login']">Login</a></button>
-            <button type="button" class="btn btn-dark"><a [routerLink]="['/register']">Register</a></button>
-          </div>
-      </div>
-  </div>
-</nav>
+<ul ngbNav #nav="ngbNav" [activeId]="2" class="nav-tabs justify-content-center">
+  <li class="nav-item">
+    <div id="home" class="m-3">
+    <a [routerLink]="['/']">STAMM STREET</a>
+    </div>
+  </li>
+  <li ngbDropdown class="nav-item m-4">
+    <a href (click)="false" class="nav-link" ngbDropdownToggle>Menu</a>
+    <div ngbDropdownMenu class="tendina">
+      <a [routerLink]="['/panini']"><button ngbDropdownItem>Panini</button></a>
+      <a [routerLink]="['/birra']"><button ngbDropdownItem>Birre </button></a>
+      <button ngbDropdownItem>Carni </button>
+      <button ngbDropdownItem>Fritti</button>
+    </div>
+  </li>
+
+
+  <li ngbDropdown class="ms-auto nav-item m-3" >
+    <a href (click)="false" class="nav-link" ngbDropdownToggle></a>
+    <div ngbDropdownMenu class="tendina">
+      <a [routerLink]="['/login']"><button ngbDropdownItem>login</button></a>
+      <a [routerLink]="['/register']"><button ngbDropdownItem>register</button></a>
+      <a > <button ngbDropdownItem (click)="logout()">logout</button></a>
+    </div>
+  </li>
+
+</ul>
+
+
+
+
+
+
+
 
 
 

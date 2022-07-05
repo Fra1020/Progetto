@@ -1,0 +1,24 @@
+<ul>
+  <li *ngFor="let birra of birre">
+    <a>
+      <img src="{{birra.img}}">
+      <div class="content">
+        <div class="name">
+          {{birra.nome}}
+        </div>
+        <div class="price">
+          <span>Prezzo: {{birra.prezzo}}</span>
+        </div>
+        <div class="ingredients">
+          <span>{{birra.ingredienti}}</span>
+        </div>
+      </div>
+    </a>
+  </li>
+</ul>
+
+
+
+
+
+

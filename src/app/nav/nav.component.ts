@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-nav',
@@ -7,10 +10,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  constructor(private authService: AuthService, private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  logout(){
+    this.authService.logout();
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Utente Sloggato',
+      showConfirmButton: false,
+      timer: 1500
+    })
+
+    this.router.navigate(['/login'])
+  }
 
 }
