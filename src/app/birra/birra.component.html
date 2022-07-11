@@ -1,21 +1,16 @@
-<ul>
-  <li *ngFor="let birra of birre">
-    <a>
-      <img src="{{birra.img}}">
-      <div class="content">
-        <div class="name">
-          {{birra.nome}}
-        </div>
-        <div class="price">
-          <span>Prezzo: {{birra.prezzo}}</span>
-        </div>
-        <div class="ingredients">
-          <span>{{birra.ingredienti}}</span>
-        </div>
-      </div>
-    </a>
-  </li>
-</ul>
+<div class="row carta">
+<div class="col-md-4 card" *ngFor="let birra of birre">
+  <div class="card-body">
+    <img class="card-img-top" src="{{birra.img}}">
+    <h2 class="card-title">{{birra.nome}}</h2>
+    <h3 class="card-text">Prezzo: {{birra.prezzo}}</h3>
+    <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
+  </div>
+</div>
+</div>
+
+
+
 
 
 

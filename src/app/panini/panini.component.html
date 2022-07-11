@@ -1,21 +1,29 @@
-<ul>
-  <li *ngFor="let panino of panini">
-    <a>
-      <img src="{{panino.img}}">
-      <div class="content">
-        <div class="name">
-          {{panino.nome}}
-        </div>
-        <div class="price">
-          <span>Prezzo: {{panino.prezzo}}</span>
-        </div>
-        <div class="ingredients">
-          <span>{{panino.ingredienti}}</span>
-        </div>
-      </div>
-    </a>
-  </li>
-</ul>
+<div class="row carta">
+  <div class="col-md-4 card" *ngFor="let panino of panini">
+    <div class="card-body">
+      <img class="card-img-top" src="{{panino.img}}">
+      <h2 class="card-title">{{panino.nome}}</h2>
+      <h3 class="card-text">Prezzo: {{panino.prezzo}}</h3>
+      <p>{{panino.ingredienti}}</p>
+      <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

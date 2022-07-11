@@ -128,7 +128,107 @@
           "prezzo":5,
           "gradazione":6.4,
           "img":"assets/img/p14.jpg"
+        },
+        {
+          "id":15,
+          "title": "carne",
+          "nome":"REALE BLACK ANGUS",
+          "prezzo": 50,
+          "info": "Una carne dal gusto deciso, ricca di grassi e caratterizzata da assoluta tenerezza. Ideale per chi vuole un taglio di carne gustoso e tenero",
+          "img":"assets/img/p15.jpg"
+        },
+        {
+          "id":16,
+          "title": "carne",
+          "nome":"MAIALINO NERO DEL SANNIO ",
+          "prezzo": 40,
+          "info":"Il maialino nero del Sannio è un’autentica chicca: piccoli produttori di Benevento allevano ogni anno pochi capi selezionatissimi. La carne è grassa, succosa e dal sapore deciso.",
+          "img":"assets/img/p16.jpg"
+        },
+        {
+          "id":17,
+          "title": "carne",
+          "nome":"GOLDEN AGE",
+          "prezzo":65,
+          "info": "Tenera. Gustosa. Impeccabile. La Golden Age è una selezione delle migliori frisone. Da assaporare dal primo all’ultimo boccone",
+          "img":"assets/img/p17.jpg"
+        },
+        {
+          "id":18,
+          "title": "carne",
+          "nome":"SASHI CHOCO",
+          "prezzo": 70,
+          "info":"Carne di colore scuro e dal grasso di colore dorato. Note dolci al gusto, dovuto dall’alimentazione a base di fave di cacao.",
+          "img":"assets/img/p18.jpg"
+        },
+        {
+          "id":19,
+          "title": "carne",
+          "nome":"BUE NERO",
+          "prezzo": 65,
+          "info": "Nasce dall’incrocio di razze Hereford e Black Angus. Dal sapore intenso ma allo stesso tempo molto tenero.",
+          "img":"assets/img/p19.jpg"
+        },
+        {
+          "id":20,
+          "title": "carne",
+          "nome":"SIMMENTAL ",
+          "prezzo": 70,
+          "info": "Originaria delle valli del fiume Simme, è una carne pura, dal sapore delicato e caratterizzata da una tenerezza estrema.",
+          "img":"assets/img/p20.jpg"
+        },
+        {
+          "id":21,
+          "title": "carne",
+          "nome":"MARCHIGIANA",
+          "prezzo": 65,
+          "info":"La Marchigiana, una delle più note razze di carne italiana, è di grandissima qualità e dal colore rosato. Il giusto grado di infiltrazione di grasso la rende tenerissima e gustosa.",
+          "img":"assets/img/p21.jpg"
+        },
+        {
+          "id":22,
+          "title": "carne",
+          "nome":"MANZA ROSSA DEI FIORDI",
+          "prezzo": 65,
+          "info": "La Manza Rossa dei Fiordi ha una tenerezza unica, un gusto inconfondibile ed un sapore gradevole che nasce dalla giusta proporzione tra grasso e carne.",
+          "img":"assets/img/p22.jpg"
+        },
+        {
+          "id": 24,
+          "title": "fritti",
+          "nome": "Patatine Twisters",
+          "prezzo": 5.5,
+          "img": "assets/img/p24.jpg"
+        },
+        {
+          "id": 25,
+          "title": "fritti",
+          "nome": "Onion Rings",
+          "prezzo": 4,
+          "img": "assets/img/p25.jpg"
+        },
+        {
+          "id": 26,
+          "title": "fritti",
+          "nome": "Jalapenos (4 pezzi)",
+          "prezzo": 7,
+          "img": "assets/img/p26.jpg"
+        },
+        {
+          "id": 27,
+          "title": "fritti",
+          "nome": "Nuggets di pollo",
+          "prezzo": 6,
+          "img": "assets/img/p27.jpg"
+        },
+        {
+          "id": 28,
+          "title": "fritti",
+          "nome": "Chicken Wings",
+          "prezzo": 8,
+          "img": "assets/img/p28.jpg"
         }
+
       ]
 }
 
